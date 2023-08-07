@@ -14,7 +14,7 @@ import random
 separator = "-" * 60
 
 print(f"{separator}\nHello there!!!\n{separator}\n\
-I have generated random four-digitsnumber, let´s beggin!!!\n{separator}")
+I have generated random four-digits number, let´s beggin!!!\n{separator}")
 
 # PART 1: Generating guessed number.
 # Def. new function "random_number". 
@@ -24,8 +24,6 @@ I have generated random four-digitsnumber, let´s beggin!!!\n{separator}")
 def random_number() -> list:
     numbers = [1, 2, 3, 4, 5, 6, 7, 9]
     return random.sample(numbers, 4)
-
-mystery_number = random_number()
 
 # Def. new function for connecting numbers in list.
 
