@@ -6,7 +6,7 @@ email: jaroslav.hoferek@seznam.cz
 discord: Jaroslav H. | Mazurel#7763
 """
 
-# PART 0.
+# PART 1.
 import random
 
 separator = "-" * 60
