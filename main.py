@@ -25,7 +25,6 @@ def random_list_generating() -> list:
         random_list = random.sample(numbers, 4)
         if random_list[0] == 0:
             random_list.pop(random_list[0])
-            random_list.append(random.randint(1,9))
         elif len(random_list) == 4:
             stop = False
     return random_list
